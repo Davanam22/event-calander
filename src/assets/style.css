@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+@media (max-width: 640px) {
+  .calendar-grid {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}
